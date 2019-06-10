@@ -102,7 +102,7 @@ const App = () => {
           break;
         }
         case "LIST": {
-          lists.push(myJson)
+          lists.push(Object.assign({}, myJson));
           break;
         }
       }
